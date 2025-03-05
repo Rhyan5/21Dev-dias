@@ -1,6 +1,3 @@
-
-
-
 let nome = prompt("Me fale seu nome:")
 console.log("Me fale seu nome:")
 console.log(nome)
