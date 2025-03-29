@@ -21,3 +21,20 @@ dias = idade * 365;
 
 console.log("Você já viveu "+meses+" meses, "+semanas+" semanas e "+dias+" dias.")
 
+//////// FAZENDO IMC
+imc = peso / (altura * altura)
+switch (imc){
+    case imc <= 18.5:
+        console.log("Você está abaixo do peso.")
+        break;
+    case imc > 18.5 && imc <= 24.9:
+        console.log("O seu peso está normal.")
+        break;
+    case imc > 24.9 && imc < 30:
+        console.log("Você está acima do peso.")
+        break;
+    case imc >= 30:
+        console.log("Você está obeso")
+        break;  
+}
+
